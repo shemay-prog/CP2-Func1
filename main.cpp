@@ -25,50 +25,60 @@ int main()
             break;
 
         case 1:
-            multiplication();
+            system("cls");
+            cout << "-Multiplication-\n";
+            cout << "\nInput first value: ";
+            cin >> first;
+
+            cout << "Input second value: ";
+            cin >> second;
+
+            sum = first * second;
+
+            cout << "\n" << first << " x " << second << " = " << sum << endl;
             break;
 
-        //case 2:
-        //    system("cls");
-        //    cout << "-Division-\n";
-        //    cout << "\nInput first value: ";
-        //    cin >> first;
+        case 2:
+            system("cls");
+            cout << "-Division-\n";
+            cout << "\nInput first value: ";
+            cin >> first;
 
-        //    cout << "Input second value: ";
-        //    cin >> second;
+            cout << "Input second value: ";
+            cin >> second;
 
-        //    sum = first / second;
+            sum = first / second;
 
-        //    cout << "\n" << first << " / " << second << " = " << sum << endl;
-        //    break;
+            cout << "\n" << first << " / " << second << " = " << sum << endl;
+            break;
 
-        //case 3:
-        //    system("cls");
-        //    cout << "-Addition-\n";
-        //    cout << "\nInput first value: ";
-        //    cin >> first;
+        case 3:
+            system("cls");
+            cout << "-Addition-\n";
+            cout << "\nInput first value: ";
+            cin >> first;
 
-        //    cout << "Input second value: ";
-        //    cin >> second;
+            cout << "Input second value: ";
+            cin >> second;
 
-        //    sum = first + second;
+            sum = first + second;
 
-        //    cout << "\n" << first << " + " << second << " = " << sum << endl;
-        //    break;
+            cout << "\n" << first << " + " << second << " = " << sum << endl;
+            break;
 
-        //case 4:
-        //    system("cls");
-        //    cout << "-Subtraction-\n";
-        //    cout << "\nInput first value: ";
-        //    cin >> first;
+        case 4:
+            system("cls");
+            cout << "-Subtraction-\n";
+            cout << "\nInput first value: ";
+            cin >> first;
 
-        //    cout << "Input second value: ";
-        //    cin >> second;
+            cout << "Input second value: ";
+            cin >> second;
 
-        //    sum = first - second;
+            sum = first - second;
 
-        //    cout << "\n" << first << " - " << second << " = " << sum << endl;
-        //    break;
+            cout << "\n" << first << " - " << second << " = " << sum << endl;
+            break;
 
         default:
             system("cls");
